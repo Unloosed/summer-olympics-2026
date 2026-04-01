@@ -1,3 +1,8 @@
+---
+title: Registration
+layout: default
+---
+
 # 📝 Registration: Summer Olympics 2026
 
 To participate in the Summer Olympics 2026, please follow the guidelines below.
