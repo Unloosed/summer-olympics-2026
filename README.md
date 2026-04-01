@@ -18,6 +18,7 @@ To view the hosted site, visit the GitHub Pages URL associated with this reposit
 ## 📜 Content Overview
 
 The documentation includes:
+
 - **Event Categories:** Sports, Physical Challenges, Board Games, Card Games, and Video Games.
 - **Tournament Formats:** Single/Double Elimination, Round Robin, and Timed Trials.
 - **Awards & Rankings:** Information on medals and prestigious titles like *Olympic Champion* and *Iron Warrior*.
