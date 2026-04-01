@@ -1,3 +1,8 @@
+---
+title: Registration
+layout: default
+---
+
 # 🏅 Summer Olympics 2026: Official Charter
 
 ## 📅 Schedule & Overview
