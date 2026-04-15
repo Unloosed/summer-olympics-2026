@@ -1,3 +1,15 @@
-title: My Site
+title: 🏅 Summer Olympics 2026
 markdown: GFM
 theme: minima
+
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
