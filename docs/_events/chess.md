@@ -4,7 +4,7 @@ title: Grandmaster Chess
 category: Board Games
 shortDescription: A battle of wits and strategy on the 64-square board.
 description: |
-  Test your strategic thinking and tactical prowess in this classic board game.
+  Test your strategic thinking and tactical prowess in this classic board game. 
   The tournament will follow a single-elimination format with timed matches.
 ruleset: |
   1. Standard FIDE rules apply unless otherwise specified.

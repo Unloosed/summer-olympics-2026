@@ -41,15 +41,15 @@ permalink: /events/
 <div class="event-grid" id="event-grid">
 {% assign sorted_events = site.events | sort: "displayOrder" %}
 {% for event in sorted_events %}
-<div class="event-card"
-     data-title="{{ event.title | downcase }}"
-     data-category="{{ event.category }}"
+<div class="event-card" 
+     data-title="{{ event.title | downcase }}" 
+     data-category="{{ event.category }}" 
      data-team-based="{{ event.teamBased }}"
      data-id="{{ event.id }}">
   <div class="category-badge">{{ event.category }}</div>
   <h3>{{ event.title }}</h3>
   <div class="event-meta">
-    <span>⏱️ {{ event.timeEstimate }}</span> |
+    <span>⏱️ {{ event.timeEstimate }}</span> | 
     <span>{% if event.teamBased %}👥 Team{% else %}👤 Individual{% endif %}</span>
   </div>
   <p>{{ event.shortDescription }}</p>

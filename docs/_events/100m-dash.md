@@ -4,8 +4,8 @@ title: 100m Dash
 category: Sports
 shortDescription: A classic sprint to determine the fastest participant.
 description: |
-  The 100m dash is the premier sprinting event in the Summer Olympics.
-  Participants will compete in heats to determine the finalists who will
+  The 100m dash is the premier sprinting event in the Summer Olympics. 
+  Participants will compete in heats to determine the finalists who will 
   race for the Gold, Silver, and Bronze medals.
 ruleset: |
   1. Participants must stay in their assigned lanes.

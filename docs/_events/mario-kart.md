@@ -4,7 +4,7 @@ title: Mario Kart 8 Deluxe
 category: Video Games
 shortDescription: High-speed racing and item-throwing mayhem!
 description: |
-  Start your engines! Compete in a series of Grand Prix cups to see
+  Start your engines! Compete in a series of Grand Prix cups to see 
   who is the fastest racer in the family. 150cc, all items allowed.
 ruleset: |
   1. 150cc Grand Prix mode.

@@ -4,7 +4,7 @@ title: Tug-of-War
 category: Physical Challenges
 shortDescription: A classic test of strength and teamwork.
 description: |
-  Teams will face off in a traditional tug-of-war. May the strongest
+  Teams will face off in a traditional tug-of-war. May the strongest 
   team win! This is a team-based event.
 ruleset: |
   1. Teams must have equal numbers of participants.
