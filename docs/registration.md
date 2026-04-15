@@ -1,6 +1,7 @@
 ---
 title: Registration
 layout: default
+description: Check the eligibility and registration process.
 ---
 
 # 📝 Registration: Summer Olympics 2026
