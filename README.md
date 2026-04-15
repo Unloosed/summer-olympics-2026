@@ -1,6 +1,6 @@
 # 🏅 Summer Olympics 2026
 
-Welcome to the official repository for the **Summer Olympics 2026**! This project is dedicated to organizing and documenting the upcoming family and friends Olympic games.
+Welcome to the official repository for the **Summer Olympics 2026**! This project is dedicated to organizing and documenting the upcoming family and friends Olympic games in June.
 
 ## 📂 Project Structure
 
