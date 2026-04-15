@@ -4,7 +4,7 @@ layout: default
 description: Read about the event categories, tournament formats, awards, and official rules.
 ---
 
-# Official Charter
+# 🏅 Summer Olympics 2026: Official Charter
 
 ## 📅 Schedule & Overview
 

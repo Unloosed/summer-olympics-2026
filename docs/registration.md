@@ -4,7 +4,7 @@ layout: default
 description: Check the eligibility and registration process.
 ---
 
-# Registration
+# 📝 Registration: Summer Olympics 2026
 
 To participate in the Summer Olympics 2026, please follow the guidelines below.
 
