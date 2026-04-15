@@ -80,7 +80,7 @@ title: Home
 
       {% assign sorted_pages = site.pages | sort: "title" %}
       {% for p in sorted_pages %}
-        {% if p.path contains "docs/" and p.url != page.url and p.title and p.title != "Home" %}
+        {% if p.name contains ".md" and p.url != page.url and p.title and p.title != "Home" %}
           <h3>{{ p.title }}</h3>
           {% if p.description %}
             <p>{{ p.description }}</p>
