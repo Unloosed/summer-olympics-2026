@@ -1,3 +1,6 @@
+---
+title: Home
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -75,20 +78,16 @@
         challenges, board games, card games, and video games.
       </p>
 
-      <h3>Explore the Official Charter</h3>
-      <p>
-        Read about the event categories, tournament formats, awards, and
-        official rules.
-      </p>
-      <a href="charter.html" class="cta-button"
-        >View Official Charter (Markdown)</a
-      >
-
-      <h3>Ready to Compete?</h3>
-      <p>Check the eligibility and registration process.</p>
-      <a href="registration.html" class="cta-button secondary"
-        >Registration Info (Markdown)</a
-      >
+      {% assign sorted_pages = site.pages | sort: "title" %}
+      {% for p in sorted_pages %}
+        {% if p.path contains "docs/" and p.url != page.url and p.title and p.title != "Home" %}
+          <h3>{{ p.title }}</h3>
+          {% if p.description %}
+            <p>{{ p.description }}</p>
+          {% endif %}
+          <a href="{{ p.url | relative_url }}" class="cta-button{% capture secondary %}{% cycle '',' secondary' %}{% endcapture %}{{ secondary }}">View {{ p.title }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
 
     <footer>
