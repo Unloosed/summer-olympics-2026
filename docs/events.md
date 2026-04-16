@@ -31,6 +31,14 @@ permalink: /events/
             <option value="team">Team-based</option>
         </select>
     </div>
+    <div class="filter-group">
+        <label for="status-filter">Status</label>
+        <select id="status-filter">
+            <option value="all">All Statuses</option>
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+        </select>
+    </div>
 </section>
 
 <div id="no-results" style="display: none; padding: 2rem; text-align: center; background: #fffbe6; border-radius: 6px;">
@@ -45,6 +53,7 @@ permalink: /events/
      data-title="{{ event.title | downcase }}" 
      data-category="{{ event.category }}" 
      data-team-based="{{ event.teamBased }}"
+     data-status="{{ event.status | default: 'open' }}"
      data-id="{{ event.id }}">
   <div class="category-badge">{{ event.category }}</div>
   <h3>{{ event.title }}</h3>

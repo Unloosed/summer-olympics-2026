@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="award-detail">
+  <header class="award-header">
+    <div class="award-icon" style="font-size: 3rem; text-align: center;">{{ page.icon }}</div>
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.description }}</p>
+  </header>
+
+  <section class="award-content">
+    <h3>Award Criteria</h3>
+    <p><strong>{{ page.criteria }}</strong></p>
+
+    <hr>
+
+    {{ content }}
+  </section>
+
+  <footer style="margin-top: 2rem;">
+    <a href="{{ '/awards.html' | relative_url }}" class="cta-button secondary">Back to Awards</a>
+  </footer>
+</article>

@@ -1,5 +1,7 @@
 vendor/
 .bundle/
 _site/
+_site_docs/
+server.log
 .jekyll-cache/
 .jekyll-metadata

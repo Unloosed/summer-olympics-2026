@@ -10,10 +10,11 @@
     <header>
       <h1><a href="/" style="text-decoration: none; color: inherit;">🏅 Summer Olympics 2026</a></h1>
       <nav>
-        <a href="/">Home</a> |
-        <a href="/events/">Event Directory</a> |
-        <a href="/charter/">Charter</a> |
-        <a href="/registration/">Registration</a>
+        <a href="/index.html">Home</a> |
+        <a href="/events/index.html">Event Directory</a> |
+        <a href="/awards.html">Awards</a> |
+        <a href="/charter.html">Charter</a> |
+        <a href="/registration.html">Registration</a>
       </nav>
     </header>
 
@@ -44,6 +45,14 @@
             <option value="team">Team-based</option>
         </select>
     </div>
+    <div class="filter-group">
+        <label for="status-filter">Status</label>
+        <select id="status-filter">
+            <option value="all">All Statuses</option>
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+        </select>
+    </div>
 </section>
 <div id="no-results" style="display: none; padding: 2rem; text-align: center; background: #fffbe6; border-radius: 6px;">
     <h3>No events match your filters</h3>
@@ -54,6 +63,7 @@
      data-title="100m dash" 
      data-category="Sports" 
      data-team-based="false"
+     data-status="open"
      data-id="/events/100m-dash">
   <div class="category-badge">Sports</div>
   <h3>100m Dash</h3>
@@ -71,6 +81,7 @@
      data-title="grandmaster chess" 
      data-category="Board Games" 
      data-team-based="false"
+     data-status="open"
      data-id="/events/chess">
   <div class="category-badge">Board Games</div>
   <h3>Grandmaster Chess</h3>
@@ -88,6 +99,7 @@
      data-title="mario kart 8 deluxe" 
      data-category="Video Games" 
      data-team-based="false"
+     data-status="open"
      data-id="/events/mario-kart">
   <div class="category-badge">Video Games</div>
   <h3>Mario Kart 8 Deluxe</h3>
@@ -105,6 +117,7 @@
      data-title="tug-of-war" 
      data-category="Physical Challenges" 
      data-team-based="true"
+     data-status="open"
      data-id="/events/tug-of-war">
   <div class="category-badge">Physical Challenges</div>
   <h3>Tug-of-War</h3>

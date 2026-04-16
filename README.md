@@ -1,28 +1,51 @@
 # 🏅 Summer Olympics 2026
 
-Welcome to the official repository for the **Summer Olympics 2026**! This project is dedicated to organizing and documenting the upcoming family and friends Olympic games in June.
+Welcome to the official repository for the **Summer Olympics 2026**! This project is a Jekyll-powered static site dedicated to organizing and documenting the upcoming family and friends Olympic games in June 2026.
 
 ## 📂 Project Structure
 
-- `docs/`: Contains the core content and documentation for the games.
-  - `index.html`: The landing page for GitHub Pages. Buttons are automatically generated for each Markdown file.
-  - `*.md`: Markdown files. These contain the bulk of the content for the website.
-- `README.md`: This file, providing an overview of the repository.
+- `docs/`: The source directory for the Jekyll site.
+  - `_events/`: Markdown files for each competition event.
+  - `_awards/`: Markdown files for special recognition awards.
+  - `_layouts/`: Jekyll layouts for the site (default, event, award).
+  - `assets/`: CSS and JavaScript files.
+  - `index.html`: The landing page.
+  - `events.md`: The event directory with search and filter capabilities.
+  - `awards.md`: The directory for special awards.
+  - `charter.md`: Official rules and event categories.
+- `_config.yml`: Jekyll configuration for the project.
+- `CONTRIBUTING.md`: Guidelines for adding new content.
 
 ## 🚀 GitHub Pages
 
-This repository is configured to be hosted via GitHub Pages. The site is served from the `/docs` folder on the main branch.
+This repository is hosted via GitHub Pages. The site is served from the `/docs` folder on the main branch.
 
-To view the hosted site, visit the [GitHub Pages URL](https://unloosed.github.io/summer-olympics-2026/) associated with this repository (typically `https://<username>.github.io/<repo-name>/`).
+Visit the live site: [Summer Olympics 2026](https://unloosed.github.io/summer-olympics-2026/)
 
-## 📜 Content Overview
+## ✨ Key Features
 
-The documentation includes:
+- **Event Directory:** Browse and filter events by category, type (team/individual), and status (open/closed).
+- **Awards Section:** Learn about special honors like the *Olympic Champion* and *Iron Warrior*.
+- **Mock Registration:** A client-side "registration" system using `localStorage` to simulate signing up for events.
+- **Responsive Design:** A clean, accessible layout for all devices.
 
-- **Event Categories:** Sports, Physical Challenges, Board Games, Card Games, and Video Games.
-- **Tournament Formats:** Single/Double Elimination, Round Robin, and Timed Trials.
-- **Awards & Rankings:** Information on medals and prestigious titles like *Olympic Champion* and *Iron Warrior*.
-- **Official Rules:** Guidelines for participation and fair play.
+## 🛠️ Local Development
+
+To run the site locally:
+
+1.  **Install Ruby and Bundler.**
+2.  **Install dependencies:**
+    ```bash
+    bundle install
+    ```
+3.  **Build and serve the site:**
+    ```bash
+    bundle exec jekyll serve --source docs
+    ```
+
+## 🤝 Contributing
+
+We welcome additions of new events and awards! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 ---
 *Let the games begin!* 🏅
