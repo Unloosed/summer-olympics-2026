@@ -1,0 +1,70 @@
+<!--
+  GOOGLE FORM CONFIGURATION:
+  1. Create a Google Form with fields: Full Name, Email, Phone, Team Name, Notes, Event Title, Event URL, Event Slug.
+  2. Get the form's 'formResponse' URL (e.g., https://docs.google.com/forms/d/e/1FAIpQLSfXXXXXXXXXXXX/formResponse)
+  3. Get the 'entry.XXXXXXXX' IDs for each field (found by inspecting the form's source code).
+  4. Replace the placeholders below with your actual values.
+-->
+
+{% assign GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" %}
+{% assign ENTRY_NAME = "entry.123456789" %}
+{% assign ENTRY_EMAIL = "entry.123456789" %}
+{% assign ENTRY_PHONE = "entry.123456789" %}
+{% assign ENTRY_TEAM = "entry.123456789" %}
+{% assign ENTRY_NOTES = "entry.123456789" %}
+{% assign ENTRY_EVENT_TITLE = "entry.123456789" %}
+{% assign ENTRY_EVENT_URL = "entry.123456789" %}
+{% assign ENTRY_EVENT_SLUG = "entry.123456789" %}
+
+<div class="event-signup-container" id="google-form-signup">
+  <h3>Sign up for {{ page.title }}</h3>
+  <p>Fill out the form below to register for this event.</p>
+
+  <form id="event-registration-form"
+        action="{{ GOOGLE_FORM_ACTION_URL }}"
+        method="POST"
+        target="hidden_iframe"
+        onsubmit="handleFormSubmit();">
+
+    <div class="form-group">
+      <label for="entry_name">Full Name <span class="required">*</span></label>
+      <input type="text" id="entry_name" name="{{ ENTRY_NAME }}" required placeholder="Your Name">
+    </div>
+
+    <div class="form-group">
+      <label for="entry_email">Email Address <span class="required">*</span></label>
+      <input type="email" id="entry_email" name="{{ ENTRY_EMAIL }}" required placeholder="your.email@example.com">
+    </div>
+
+    <div class="form-group">
+      <label for="entry_phone">Phone Number (Optional)</label>
+      <input type="tel" id="entry_phone" name="{{ ENTRY_PHONE }}" placeholder="123-456-7890">
+    </div>
+
+    {% if page.teamBased %}
+    <div class="form-group">
+      <label for="entry_team">Team Name (Optional)</label>
+      <input type="text" id="entry_team" name="{{ ENTRY_TEAM }}" placeholder="Your Team Name">
+    </div>
+    {% endif %}
+
+    <div class="form-group">
+      <label for="entry_notes">Notes / Accommodations (Optional)</label>
+      <textarea id="entry_notes" name="{{ ENTRY_NOTES }}" rows="3" placeholder="Any special requirements?"></textarea>
+    </div>
+
+    <!-- Hidden Metadata Fields -->
+    <input type="hidden" name="{{ ENTRY_EVENT_TITLE }}" value="{{ page.title }}">
+    <input type="hidden" name="{{ ENTRY_EVENT_URL }}" value="{{ page.url | absolute_url }}">
+    <input type="hidden" name="{{ ENTRY_EVENT_SLUG }}" value="{{ page.title | slugify }}">
+
+    <button type="submit" class="cta-button">Sign up for {{ page.title }}</button>
+  </form>
+
+  <div id="form-success-message" style="display: none;" class="success-box">
+    <h4>Registration Received!</h4>
+    <p>Thank you for signing up for <strong>{{ page.title }}</strong>. We've received your registration.</p>
+  </div>
+
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+</div>
