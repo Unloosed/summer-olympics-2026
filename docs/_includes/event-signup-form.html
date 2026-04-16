@@ -6,25 +6,23 @@
   4. Replace the placeholders below with your actual values.
 -->
 
-{% assign GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse" %}
-{% assign ENTRY_NAME = "entry.123456789" %}
-{% assign ENTRY_EMAIL = "entry.123456789" %}
-{% assign ENTRY_PHONE = "entry.123456789" %}
-{% assign ENTRY_TEAM = "entry.123456789" %}
-{% assign ENTRY_NOTES = "entry.123456789" %}
-{% assign ENTRY_EVENT_TITLE = "entry.123456789" %}
-{% assign ENTRY_EVENT_URL = "entry.123456789" %}
-{% assign ENTRY_EVENT_SLUG = "entry.123456789" %}
+{% assign GOOGLE_FORM_ACTION_URL =
+"https://docs.google.com/forms/d/e/1FAIpQLScW3uWzPMdE0gGp0Iq8m7k7T1YBOxElE2bJGToGPPZm4CXr7Q/formResponse" %}
+{% assign ENTRY_NAME = "entry.1862583489" %}
+{% assign ENTRY_EMAIL = "entry.303672653" %}
+{% assign ENTRY_PHONE = "entry.1077489498" %}
+{% assign ENTRY_TEAM = "entry.868783196" %}
+{% assign ENTRY_NOTES = "entry.1010132118" %}
+{% assign ENTRY_EVENT_TITLE = "entry.963520522" %}
+{% assign ENTRY_EVENT_URL = "entry.815752783" %}
+{% assign ENTRY_EVENT_SLUG = "entry.2105755869" %}
 
 <div class="event-signup-container" id="google-form-signup">
   <h3>Sign up for {{ page.title }}</h3>
   <p>Fill out the form below to register for this event.</p>
 
-  <form id="event-registration-form"
-        action="{{ GOOGLE_FORM_ACTION_URL }}"
-        method="POST"
-        target="hidden_iframe"
-        onsubmit="handleFormSubmit();">
+  <form id="event-registration-form" action="{{ GOOGLE_FORM_ACTION_URL }}" method="POST" target="hidden_iframe"
+    onsubmit="handleFormSubmit();">
 
     <div class="form-group">
       <label for="entry_name">Full Name <span class="required">*</span></label>
@@ -32,7 +30,7 @@
     </div>
 
     <div class="form-group">
-      <label for="entry_email">Email Address <span class="required">*</span></label>
+      <label for="entry_email">Email Address (Optional)</label>
       <input type="email" id="entry_email" name="{{ ENTRY_EMAIL }}" required placeholder="your.email@example.com">
     </div>
 

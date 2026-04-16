@@ -19,6 +19,7 @@ tournamentFormat: Points-based over 4 races
 equipmentNeeded: Nintendo Switch Controller (if you have a preferred one)
 skillLevel: All levels welcome
 status: open
+registration_enabled: true
 displayOrder: 3
 ---
 Watch out for those Blue Shells! Mario Kart is always a crowd favorite and a test of both skill and luck.

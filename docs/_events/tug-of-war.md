@@ -19,6 +19,7 @@ tournamentFormat: Double Elimination
 equipmentNeeded: Gloves (recommended)
 skillLevel: All levels welcome
 status: open
+registration_enabled: true
 displayOrder: 4
 ---
 Heave-ho! Bring your friends and family together for this legendary display of power.

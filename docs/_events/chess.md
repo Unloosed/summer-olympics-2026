@@ -19,6 +19,7 @@ tournamentFormat: Single Elimination
 equipmentNeeded: None (Boards and clocks provided)
 skillLevel: Intermediate recommended
 status: open
+registration_enabled: true
 displayOrder: 2
 ---
 Chess is the ultimate game of strategy. Can you outthink your opponents and claim the title of Grandmaster?
