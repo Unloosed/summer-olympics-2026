@@ -6,6 +6,9 @@ collections:
   events:
     output: true
     permalink: /events/:path/
+  awards:
+    output: true
+    permalink: /awards/:path.html
 
 defaults:
   - scope:
@@ -13,3 +16,8 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  - scope:
+      path: ""
+      type: "awards"
+    values:
+      layout: "award"

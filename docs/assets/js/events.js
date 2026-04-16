@@ -155,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search-input');
     const categoryFilter = document.getElementById('category-filter');
     const typeFilter = document.getElementById('type-filter');
+    const statusFilter = document.getElementById('status-filter');
     const eventCards = document.querySelectorAll('.event-card');
     const noResults = document.getElementById('no-results');
 
@@ -163,20 +164,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const searchTerm = searchInput.value.toLowerCase();
             const category = categoryFilter.value;
             const type = typeFilter.value;
+            const status = statusFilter ? statusFilter.value : 'all';
             let visibleCount = 0;
 
             eventCards.forEach(card => {
                 const title = card.dataset.title;
                 const cardCategory = card.dataset.category;
                 const isTeam = card.dataset.teamBased === 'true';
+                const cardStatus = card.dataset.status;
 
                 const matchesSearch = title.includes(searchTerm);
                 const matchesCategory = category === 'all' || cardCategory === category;
                 const matchesType = type === 'all' || 
                                    (type === 'team' && isTeam) || 
                                    (type === 'individual' && !isTeam);
+                const matchesStatus = status === 'all' || cardStatus === status;
 
-                if (matchesSearch && matchesCategory && matchesType) {
+                if (matchesSearch && matchesCategory && matchesType && matchesStatus) {
                     card.style.display = 'flex';
                     visibleCount++;
                 } else {
@@ -190,6 +194,9 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', filterEvents);
         categoryFilter.addEventListener('change', filterEvents);
         typeFilter.addEventListener('change', filterEvents);
+        if (statusFilter) {
+            statusFilter.addEventListener('change', filterEvents);
+        }
     }
 
     // Initialize UI
