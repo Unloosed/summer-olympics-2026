@@ -21,5 +21,6 @@ equipmentNeeded: Running shoes (optional), comfortable athletic wear.
 skillLevel: All levels welcome
 status: open
 displayOrder: 1
+registration_enabled: true
 ---
 The 100m dash is all about explosive power and speed. Whether you're a seasoned runner or just looking for some fun, this event is a highlight of the games!

@@ -66,30 +66,35 @@ document.addEventListener('DOMContentLoaded', () => {
             capacityText.innerText = `${eventRegs.length} / ${eventCapacity}`;
         }
 
-        if (!currentUser) {
-            statusBox.innerHTML = '<span class="status-badge">Login to see status</span>';
-            return;
-        }
-
-        const isRegistered = eventRegs.some(u => u.id === currentUser.id);
-
-        if (isRegistered) {
-            statusBox.innerHTML = '<span class="status-badge status-open">✓ You are registered!</span>';
-            signupBtn.style.display = 'none';
-            cancelBtn.style.display = 'inline-block';
-        } else {
-            if (eventRegs.length >= eventCapacity) {
-                statusBox.innerHTML = '<span class="status-badge status-full">Event is Full</span>';
-                signupBtn.disabled = true;
-                signupBtn.innerText = 'Capacity Reached';
-                signupBtn.style.display = 'inline-block';
-                cancelBtn.style.display = 'none';
+        if (statusBox) {
+            if (!currentUser) {
+                statusBox.innerHTML = '<span class="status-badge">Login to see status</span>';
             } else {
-                statusBox.innerHTML = '<span class="status-badge status-open">Registration Open</span>';
-                signupBtn.disabled = false;
-                signupBtn.innerText = 'Sign Up for this Event';
-                signupBtn.style.display = 'inline-block';
-                cancelBtn.style.display = 'none';
+                const isRegistered = eventRegs.some(u => u.id === currentUser.id);
+
+                if (isRegistered) {
+                    statusBox.innerHTML = '<span class="status-badge status-open">✓ You are registered!</span>';
+                    if (signupBtn) signupBtn.style.display = 'none';
+                    if (cancelBtn) cancelBtn.style.display = 'inline-block';
+                } else {
+                    if (eventRegs.length >= eventCapacity) {
+                        statusBox.innerHTML = '<span class="status-badge status-full">Event is Full</span>';
+                        if (signupBtn) {
+                            signupBtn.disabled = true;
+                            signupBtn.innerText = 'Capacity Reached';
+                            signupBtn.style.display = 'inline-block';
+                        }
+                        if (cancelBtn) cancelBtn.style.display = 'none';
+                    } else {
+                        statusBox.innerHTML = '<span class="status-badge status-open">Registration Open</span>';
+                        if (signupBtn) {
+                            signupBtn.disabled = false;
+                            signupBtn.innerText = 'Sign Up for this Event';
+                            signupBtn.style.display = 'inline-block';
+                        }
+                        if (cancelBtn) cancelBtn.style.display = 'none';
+                    }
+                }
             }
         }
     };
@@ -197,6 +202,26 @@ document.addEventListener('DOMContentLoaded', () => {
         if (statusFilter) {
             statusFilter.addEventListener('change', filterEvents);
         }
+    }
+
+    // --- Google Form Submission Handling ---
+    let formSubmitted = false;
+
+    window.handleFormSubmit = () => {
+        formSubmitted = true;
+    };
+
+    const hiddenIframe = document.getElementById('hidden_iframe');
+    if (hiddenIframe) {
+        hiddenIframe.addEventListener('load', () => {
+            if (formSubmitted) {
+                const form = document.getElementById('event-registration-form');
+                const successMsg = document.getElementById('form-success-message');
+                if (form) form.style.display = 'none';
+                if (successMsg) successMsg.style.display = 'block';
+                successMsg.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
     }
 
     // Initialize UI

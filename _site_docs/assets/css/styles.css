@@ -199,6 +199,64 @@ footer {
     margin-top: 1rem;
 }
 
+/* Signup Form Styles */
+.event-signup-container {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.event-signup-container h3 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+}
+
+.required {
+    color: #cb2431;
+}
+
+.success-box {
+    background-color: #dcffe4;
+    border: 1px solid #1a7f37;
+    color: #1a7f37;
+    padding: 1.5rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.success-box h4 {
+    margin-top: 0;
+    color: #1a7f37;
+}
+
 .back-link {
     display: block;
     margin-top: 2rem;
