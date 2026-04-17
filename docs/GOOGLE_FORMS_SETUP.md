@@ -28,7 +28,7 @@ This guide explains how to connect your Jekyll site to a Google Form for event r
 ## 3. Get the Field Entry IDs
 
 1. While still viewing the page source or using Browser DevTools (F12) on the live form.
-2. Search for `entry.` followed by numbers (e.g., `entry.123456789`).
+2. Search for `entry.` followed by numbers (e.g., `entry.123456789`). These can be found in a complex list of lists variable `FB_LOAD_DATA`, or in a `jscontroller` div object with the `data-fieldid` being the entry ID.
 3. Map each `entry.ID` to the corresponding field in the form.
    - *Tip:* You can also find these by inspecting each input element in the form's live view.
 
