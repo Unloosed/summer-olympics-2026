@@ -46,6 +46,13 @@ layout: default
     <p>{{ page.equipmentNeeded }}</p>
   </section>
 
+  <section class="participants-section" id="participants-container" style="display: none; margin-top: 3rem;">
+    <h2>Current Participants</h2>
+    <div id="participants-list">
+      <p>Loading participants...</p>
+    </div>
+  </section>
+
   <section class="signup-section" id="signup-container">
     {% if page.registration_enabled %}
       {% include event-signup-form.html %}

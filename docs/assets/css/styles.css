@@ -268,6 +268,48 @@ footer {
     text-decoration: underline;
 }
 
+/* Participants Table Styles */
+.participants-section {
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.participants-section h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.participants-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.participants-table th,
+.participants-table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.participants-table th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+}
+
+.participants-table tr:last-child td {
+    border-bottom: none;
+}
+
+.error-text {
+    color: #cf222e;
+    font-weight: 500;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
     .event-grid {

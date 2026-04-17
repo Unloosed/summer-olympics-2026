@@ -1,6 +1,9 @@
-127.0.0.1 - - [16/Apr/2026 17:29:02] "GET /events/100m-dash/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [16/Apr/2026 17:29:02] "GET /assets/css/styles.css HTTP/1.1" 200 -
-127.0.0.1 - - [16/Apr/2026 17:29:02] "GET /assets/js/events.js HTTP/1.1" 200 -
-127.0.0.1 - - [16/Apr/2026 17:31:31] "GET /events/100m-dash/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [16/Apr/2026 17:31:31] "GET /assets/css/styles.css HTTP/1.1" 200 -
-127.0.0.1 - - [16/Apr/2026 17:31:31] "GET /assets/js/events.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:40:32] "GET /events/chess/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:40:32] "GET /assets/js/events.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:40:32] "GET /assets/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:41:13] "GET /events/chess/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:41:13] "GET /assets/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:41:13] "GET /assets/js/events.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:43:02] "GET /events/chess/ HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:43:02] "GET /assets/js/events.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2026 14:43:02] "GET /assets/css/styles.css HTTP/1.1" 200 -
