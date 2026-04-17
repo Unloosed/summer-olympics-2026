@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateAuthUI = () => {
         const authNotice = document.getElementById('auth-notice');
         const signupControls = document.getElementById('signup-controls');
-        
+
         if (!authNotice || !signupControls) return;
 
         if (currentUser) {
             authNotice.innerHTML = `<p>Logged in as <strong>${currentUser.name}</strong>. <a href="#" id="mock-logout">Logout</a></p>`;
             signupControls.style.display = 'block';
-            
+
             document.getElementById('mock-logout').addEventListener('click', (e) => {
                 e.preventDefault();
                 localStorage.removeItem(MOCK_USER_KEY);
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button id="mock-login-button" class="cta-button secondary">Simulate Login</button>
             `;
             signupControls.style.display = 'none';
-            
+
             document.getElementById('mock-login-button').addEventListener('click', () => {
                 const name = prompt("Enter your name to simulate login:", "Athlete One");
                 if (name) {
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Use spreadsheet data for official count
         const totalCount = spreadsheetRegs.length;
-        
+
         const statusBox = document.getElementById('registration-status');
         const signupBtn = document.getElementById('signup-button');
         const cancelBtn = document.getElementById('cancel-signup-button');
@@ -250,9 +250,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const detailEl = document.querySelector('.event-detail');
             const eventId = detailEl.dataset.eventId;
             const registrations = getRegistrations();
-            
+
             if (!registrations[eventId]) registrations[eventId] = [];
-            
+
             if (!registrations[eventId].some(u => u.id === currentUser.id)) {
                 registrations[eventId].push(currentUser);
                 localStorage.setItem(REGISTRATIONS_KEY, JSON.stringify(registrations));
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const detailEl = document.querySelector('.event-detail');
             const eventId = detailEl.dataset.eventId;
             const registrations = getRegistrations();
-            
+
             if (registrations[eventId]) {
                 registrations[eventId] = registrations[eventId].filter(u => u.id !== currentUser.id);
                 localStorage.setItem(REGISTRATIONS_KEY, JSON.stringify(registrations));
@@ -303,9 +303,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const matchesSearch = title.includes(searchTerm);
                 const matchesCategory = category === 'all' || cardCategory === category;
-                const matchesType = type === 'all' || 
-                                   (type === 'team' && isTeam) || 
-                                   (type === 'individual' && !isTeam);
+                const matchesType = type === 'all' ||
+                    (type === 'team' && isTeam) ||
+                    (type === 'individual' && !isTeam);
                 const matchesStatus = status === 'all' || cardStatus === status;
 
                 if (matchesSearch && matchesCategory && matchesType && matchesStatus) {
