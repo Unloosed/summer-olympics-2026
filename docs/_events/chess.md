@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Grandmaster Chess
-category: Board Games
+category: Tabletop Games
 shortDescription: A battle of wits and strategy on the 64-square board.
 description: |
   Test your strategic thinking and tactical prowess in this classic board game. 
