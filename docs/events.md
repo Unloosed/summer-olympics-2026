@@ -18,8 +18,7 @@ permalink: /events/
             <option value="all">All Categories</option>
             <option value="Sports">Sports</option>
             <option value="Physical Challenges">Physical Challenges</option>
-            <option value="Board Games">Board Games</option>
-            <option value="Card Games">Card Games</option>
+            <option value="Tabletop Games">Tabletop Games</option>
             <option value="Video Games">Video Games</option>
         </select>
     </div>
@@ -59,6 +58,7 @@ permalink: /events/
   <h3>{{ event.title }}</h3>
   <div class="event-meta">
     <span>⏱️ {{ event.timeEstimate }}</span> | 
+    <span>📍 {{ event.location }}</span> |
     <span>{% if event.teamBased %}👥 Team{% else %}👤 Individual{% endif %}</span>
   </div>
   <p>{{ event.shortDescription }}</p>

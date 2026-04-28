@@ -19,8 +19,7 @@ To participate in the Summer Olympics 2026, please follow the guidelines below.
 2. **Event Selection:** You can enter as many events as you like across all categories:
    - Sports
    - Physical Challenges
-   - Board Games
-   - Card Games
+   - Tabletop Games
    - Video Games
 3. **Deadline:** Please register by June 1st, 2026, to allow for tournament bracket scheduling.
 

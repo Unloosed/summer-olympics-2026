@@ -26,15 +26,11 @@ Traditional athletic competitions (e.g., Soccer, Badminton, Swimming).
 
 Skill-based or endurance tasks (e.g., Obstacle courses, Longest plank, Tug-of-war).
 
-### 3. Board Games
+### 3. Tabletop Games
 
-Tabletop strategy and logic (e.g., Chess, Settlers of Catan, Scrabble).
+Strategy, logic, and speed-based games played on a table (e.g., Chess, Settlers of Catan, Poker, Uno).
 
-### 4. Card Games
-
-Speed and strategy (e.g., Poker, Uno, Speed).
-
-### 5. Video Games
+### 4. Video Games
 
 Digital competition (e.g., Mario Kart, Smash Bros, Just Dance).
 
