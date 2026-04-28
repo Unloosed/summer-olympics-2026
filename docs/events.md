@@ -58,6 +58,7 @@ permalink: /events/
   <h3>{{ event.title }}</h3>
   <div class="event-meta">
     <span>⏱️ {{ event.timeEstimate }}</span> | 
+    <span>📍 {{ event.location }}</span> |
     <span>{% if event.teamBased %}👥 Team{% else %}👤 Individual{% endif %}</span>
   </div>
   <p>{{ event.shortDescription }}</p>
