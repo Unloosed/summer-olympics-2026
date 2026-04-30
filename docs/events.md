@@ -15,7 +15,7 @@ permalink: /events/
     <div class="filter-group">
         <label for="category-filter">Category</label>
         <select id="category-filter">
-            <option value="all">All Categories</option>
+            <option value="all" selected>All Categories</option>
             <option value="Sports">Sports</option>
             <option value="Physical Challenges">Physical Challenges</option>
             <option value="Tabletop Games">Tabletop Games</option>
@@ -25,7 +25,7 @@ permalink: /events/
     <div class="filter-group">
         <label for="type-filter">Type</label>
         <select id="type-filter">
-            <option value="all">All Types</option>
+            <option value="all" selected>All Types</option>
             <option value="individual">Individual</option>
             <option value="team">Team-based</option>
         </select>
@@ -33,9 +33,9 @@ permalink: /events/
     <div class="filter-group">
         <label for="status-filter">Status</label>
         <select id="status-filter">
-            <option value="all">All Statuses</option>
-            <option value="open">Open</option>
+            <option value="open" selected>Open</option>
             <option value="closed">Closed</option>
+            <option value="all">All Statuses</option>
         </select>
     </div>
 </section>
