@@ -1,22 +1,23 @@
 ---
 id: 27
-title: Flip 7
-category: Tabletop Games
-shortDescription: A card game of chance and press-your-luck.
+title: Hide & Seek
+category: Sports
+shortDescription: The classic hide and seek game where players must find each other before time runs out.
 description: |
-  Flip 7 is a fast-paced card game where players must decide when to stop flipping cards to maximize their score without busting.
+  It's Hide & Seek.
 ruleset: |
-  1. Players take turns flipping cards from the deck.
-  2. The goal is to collect different numbered cards.
-  3. If you flip a card you already have, you bust and lose your points for that round.
-  4. First player to reach the target score wins.
-timeEstimate: 20 minutes
-location: Dining Hall
-capacity: 6
+  1. A player is randomly selected to seek the other players.
+  2. After counting to 90 seconds, the seeker must announce "Ready or not, here I come!". No peeking!
+  3. The seeker has 5 minutes to find as many other players as they can.
+  4. One point is awarded to the seeker for each player found. One point is awarded to the hider for each round they remained hidden.
+  5. The player with the most points after 2-3 cycles wins. Cycle count subject to change based on the number of participants.
+  _Note: A "cycle" is one complete series of all players being the seeker. In other words, every player will be the seeker 2-3 times._
+timeEstimate: 60 minutes
+location: The Park
+capacity: 10
 teamBased: false
-requiresTournamentOrganization: true
-tournamentFormat: Round Robin
-equipmentNeeded: Flip 7 deck (provided)
+requiresTournamentOrganization: false
+equipmentNeeded: Outdoor shoes and clothes
 skillLevel: All levels welcome
 status: open
 registration_enabled: true
