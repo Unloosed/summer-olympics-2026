@@ -2,21 +2,21 @@
 id: 26
 title: Nerf Guns
 category: Sports
-shortDescription: A card game of chance and press-your-luck.
+shortDescription: Nerf guns deathmatch
 description: |
-  Flip 7 is a fast-paced card game where players must decide when to stop flipping cards to maximize their score without busting.
+  Nerf guns deathmatch is a fast-paced game where players must shoot each other down before time runs out.
 ruleset: |
-  1. Players take turns flipping cards from the deck.
-  2. The goal is to collect different numbered cards.
-  3. If you flip a card you already have, you bust and lose your points for that round.
-  4. First player to reach the target score wins.
-timeEstimate: 20 minutes
-location: Dining Hall
-capacity: 6
+  1. Players select their Nerf gun. Either one medium to large size gun or two small guns are allowed.
+  2. Each player has 3 lives. One life is lost each time a player is shot down.
+  3. Last one standing wins and moves on to the next round.
+  4. If there is no winner after the time runs out, the player with the most remaining lives wins.
+timeEstimate: 30 minutes
+location: The Park
+capacity: 8
 teamBased: false
 requiresTournamentOrganization: true
-tournamentFormat: Round Robin
-equipmentNeeded: Flip 7 deck (provided)
+tournamentFormat: Single Elimination
+equipmentNeeded: Outdoor shoes
 skillLevel: All levels welcome
 status: open
 registration_enabled: true
