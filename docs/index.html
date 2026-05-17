@@ -2,27 +2,36 @@
 title: Home
 layout: default
 ---
+
 <h2>Welcome to the Games!</h2>
 <p>
-  The Summer Olympics 2026 is a week-long celebration of sports, physical
-  challenges, board games, card games, and video games.
+    The Summer Olympics 2026 is a week-long celebration of sports, physical
+    challenges, board games, card games, and video games. It will take place
+    from June 26th to July 3rd.
 </p>
 
 <div class="featured-events">
-  {% assign sorted_pages = site.pages | sort: "title" %}
-  {% for p in sorted_pages %}
-    {% if p.name contains ".md" and p.url != page.url and p.title and p.title != "Home" and p.title != "Events" %}
-      <h3>{{ p.title }}</h3>
-      {% if p.description %}
-        <p>{{ p.description }}</p>
-      {% endif %}
-      <a href="{{ p.url | relative_url }}" class="cta-button{% capture secondary %}{% cycle '',' secondary' %}{% endcapture %}{{ secondary }}">View {{ p.title }}</a>
+    {% assign sorted_pages = site.pages | sort: "title" %} {% for p in
+    sorted_pages %} {% if p.name contains ".md" and p.url != page.url and
+    p.title and p.title != "Home" and p.title != "Events" %}
+    <h3>{{ p.title }}</h3>
+    {% if p.description %}
+    <p>{{ p.description }}</p>
     {% endif %}
-  {% endfor %}
+    <a
+        href="{{ p.url | relative_url }}"
+        class="cta-button{% capture secondary %}{% cycle '',' secondary' %}{% endcapture %}{{ secondary }}"
+        >View {{ p.title }}</a
+    >
+    {% endif %} {% endfor %}
 </div>
 
-<div style="margin-top: 2rem; padding: 1rem; border-top: 1px solid #eee;">
+<div style="margin-top: 2rem; padding: 1rem; border-top: 1px solid #eee">
     <h3>Ready to compete?</h3>
-    <p>Check out our full event directory to see all competitions and sign up!</p>
-    <a href="{{ '/events/index.html' | relative_url }}" class="cta-button">Browse Events</a>
+    <p>
+        Check out our full event directory to see all competitions and sign up!
+    </p>
+    <a href="{{ '/events/index.html' | relative_url }}" class="cta-button"
+        >Browse Events</a
+    >
 </div>
