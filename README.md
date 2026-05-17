@@ -25,7 +25,7 @@ Visit the live site: [Summer Olympics 2026](https://unloosed.github.io/summer-ol
 ## ✨ Key Features
 
 - **Event Directory:** Browse and filter events by category, type (team/individual), and status (open/closed).
-- **Awards Section:** Learn about special honors like the *Olympic Champion* and *Iron Warrior*.
+- **Awards Section:** Learn about special honors like the _Olympic Champion_ and _Iron Warrior_.
 - **Mock Registration:** A client-side "registration" system using `localStorage` to simulate signing up for events.
 - **Responsive Design:** A clean, accessible layout for all devices.
 
@@ -48,4 +48,5 @@ To run the site locally:
 We welcome additions of new events and awards! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
 ---
-*Let the games begin!* 🏅
+
+_Let the games begin!_ 🏅
