@@ -1,10 +1,10 @@
 ---
 id: 15
-title: Slaprat
+title: Ratslap
 category: Tabletop Games
 shortDescription: A high-speed card game of reaction and counting.
 description: |
-  Slaprat involves counting cards and reacting quickly to pairs, sequences, and "sandwiches". It's a test of focus and speed.
+  Ratslap involves counting cards and reacting quickly to pairs, sequences, and "sandwiches". It's a test of focus and speed.
 ruleset: |
   1. Players take turns playing cards into a central pile while counting 1, 2, 3...
   2. If the card played matches the number called, or if a pair or "sandwich" (two of the same card with one different card in between) appears, everyone must slap the pile.
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 15
 ---
-Fast hands and sharp focus are required for Slaprat. Don't be the last one to slap!
+
+Fast hands and sharp focus are required for Ratslap. Don't be the last one to slap!
