@@ -1,6 +1,6 @@
 ---
 id: 31
-title: Sand hole
+title: Sand Hole
 category: Physical Challenges
 shortDescription: A casual beach activity where players spend 10 minutes digging a large hole.
 description: |
