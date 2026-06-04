@@ -1,24 +1,23 @@
 ---
 id: 30
 title: Screaming Eagles
-category: Tabletop Games
-shortDescription: A fast-paced WWII squad-level combat board game.
+category: Physical Challenges
+shortDescription: Take a big breath and run as fast as you can!
 description: |
-  Screaming Eagles covers the 101st Airborne's battles from D-Day through the Battle of the Bulge. Players control squads and leaders in tactical combat.
+  Run as fast as you can while screaming.
 ruleset: |
-  1. Players follow the standard Worthington Publishing rules for Screaming Eagles.
-  2. Scenarios will be pre-selected for the tournament.
-  3. Points are awarded based on objectives achieved and enemy units eliminated.
+  1. Players line up at the starting line and take a big breath.
+  2. They begin running and scream as they go.
+  3. Players may only run while they are screaming. Once you have to take a breath, stop!
 timeEstimate: 90 minutes
-location: Game Room
+location: Running Track
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true
-tournamentFormat: Round Robin
-equipmentNeeded: Board game provided.
-skillLevel: Intermediate
+tournamentFormat: Free-For-All
+equipmentNeeded: Running shoes
+skillLevel: Beginner
 status: open
 registration_enabled: true
 displayOrder: 30
 ---
-Lead your squad to victory in the historic battles of WWII.
