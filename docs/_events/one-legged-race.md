@@ -1,6 +1,6 @@
 ---
 id: 34
-title: One legged race
+title: One-Legged Race
 category: Sports
 shortDescription: A race where participants hop on one leg to the finish line.
 description: |
@@ -9,8 +9,8 @@ ruleset: |
   1. Participants must hop on one leg from the start to the finish line.
   2. If the other foot touches the ground, the participant must return to the start or wait for a 3-second penalty.
   3. First to cross the finish line wins.
-timeEstimate: 15 minutes
-location: Grass Field
+timeEstimate: 10 minutes
+location: Track
 capacity: 20
 teamBased: false
 requiresTournamentOrganization: false
@@ -20,4 +20,5 @@ status: open
 registration_enabled: true
 displayOrder: 34
 ---
+
 Hop your way to glory!
