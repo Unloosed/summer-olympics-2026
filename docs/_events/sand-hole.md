@@ -1,10 +1,10 @@
 ---
 id: 31
-title: Digging big hole at the beach 10 minutes
+title: Sand hole
 category: Physical Challenges
 shortDescription: A casual beach activity where players spend 10 minutes digging a large hole.
 description: |
-  A casual beach activity where players spend 10 minutes digging a large hole in the sand, often for fun or creative building. This is a test of stamina and digging technique!
+  A casual beach activity where players spend 10 minutes digging a large hole in the sand. The largest hole at the end wins!
 ruleset: |
   1. Each participant has 10 minutes to dig the deepest/largest hole possible.
   2. Participants must use only their hands or small plastic shovels provided.
@@ -20,4 +20,5 @@ status: open
 registration_enabled: true
 displayOrder: 31
 ---
+
 How deep can you go? It's time to get your hands dirty!
