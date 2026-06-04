@@ -23,4 +23,5 @@ status: open
 registration_enabled: true
 displayOrder: 1
 ---
+
 The 100m dash is all about explosive power and speed. Whether you're a seasoned runner or just looking for some fun, this event is a highlight of the games!
