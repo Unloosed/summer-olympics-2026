@@ -1,6 +1,6 @@
 ---
 id: 37
-title: Bing bang boom
+title: Bing Bang Boom
 category: Tabletop Games
 shortDescription: A fast-paced reflex card game with fireworks.
 description: |
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 37
 ---
+
 Fast hands and quick eyes are what you need for this explosive game!
