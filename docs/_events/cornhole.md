@@ -1,6 +1,6 @@
 ---
 id: 7
-title: Sandbag Toss
+title: Cornhole
 category: Physical Challenges
 shortDescription: Toss sandbags into targets for points.
 description: |
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 7
 ---
+
 Sandbag Toss is a backyard favorite that anyone can win. Give it your best shot!
