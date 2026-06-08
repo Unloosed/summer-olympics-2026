@@ -11,7 +11,7 @@ ruleset: |
   3. Bonus Stars are turned ON.
   4. The player with the most Stars at the end of the game wins. Ties are broken by coin count.
 timeEstimate: 1 hour
-location: Living Room TV
+location: Family Room
 capacity: 12
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 18
 ---
+
 It's a party! But remember, in Mario Party, friendships are put to the test.

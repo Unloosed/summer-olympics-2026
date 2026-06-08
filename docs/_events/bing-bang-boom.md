@@ -10,7 +10,7 @@ ruleset: |
   2. If you can't play, you must draw.
   3. Don't be the one holding the "dud" when the timer goes off!
 timeEstimate: 15 minutes
-location: Living Room
+location: Dining Room
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true

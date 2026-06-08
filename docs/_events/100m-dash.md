@@ -12,7 +12,7 @@ ruleset: |
   2. A false start will result in a warning; a second false start by the same participant results in disqualification.
   3. The finish is determined by the participant's torso crossing the finish line.
 timeEstimate: 30 minutes
-location: Main Track
+location: Marine View Middle School Track
 capacity: 24
 teamBased: false
 requiresTournamentOrganization: true

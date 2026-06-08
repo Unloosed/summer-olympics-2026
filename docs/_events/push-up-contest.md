@@ -13,7 +13,7 @@ ruleset: |
   3. Failure to go up or down on cue, or touching the ground with anything other than hands and toes, results in elimination.
   4. The last person remaining in sync wins.
 timeEstimate: 10 minutes
-location: Main Gym
+location: Front Yard
 capacity: 20
 teamBased: false
 requiresTournamentOrganization: false
@@ -23,4 +23,5 @@ status: open
 registration_enabled: true
 displayOrder: 5
 ---
+
 The "Bring Sally Up" challenge is a legendary test of will. Can you outlast the music?

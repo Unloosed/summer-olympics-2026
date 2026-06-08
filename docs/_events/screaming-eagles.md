@@ -9,8 +9,8 @@ ruleset: |
   1. Players line up at the starting line and take a big breath.
   2. They begin running and scream as they go.
   3. Players may only run while they are screaming. Once you have to take a breath, stop!
-timeEstimate: 90 minutes
-location: Running Track
+timeEstimate: 30 minutes
+location: Marine View Middle School Track
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true

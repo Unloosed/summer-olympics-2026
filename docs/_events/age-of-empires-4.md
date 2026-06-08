@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 25
 ---
+
 Will you lead your empire to glory or see it crumble in the sands of time?

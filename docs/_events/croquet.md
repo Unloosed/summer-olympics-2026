@@ -11,7 +11,7 @@ ruleset: |
   3. The first player to complete the course and hit the finishing stake wins.
   4. In this "last one standing" variant, players who fall too far behind may be eliminated.
 timeEstimate: 1 hour
-location: Front Lawn
+location: Backyard
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 9
 ---
+
 Enjoy a refined afternoon of competition with a classic game of Croquet.

@@ -11,7 +11,7 @@ ruleset: |
   3. At the end of the time limit, the player with the highest total net worth (cash + property value + buildings) wins.
   4. Trading is encouraged!
 timeEstimate: 2 hours
-location: Living Room
+location: Dining Room
 capacity: 6
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 14
 ---
+
 Will you be a tycoon or go bankrupt? The race for Boardwalk is on!

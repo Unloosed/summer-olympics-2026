@@ -10,15 +10,16 @@ ruleset: |
   2. Standard match timer and health.
   3. Single elimination bracket.
 timeEstimate: 30 minutes
-location: PC Lab
+location: Family Room
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true
 tournamentFormat: Single Elimination
-equipmentNeeded: PC (provided).
+equipmentNeeded: None
 skillLevel: Intermediate
 status: open
 registration_enabled: true
 displayOrder: 46
 ---
+
 Outthink and outplay your opponent in slow-motion!

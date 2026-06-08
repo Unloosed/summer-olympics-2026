@@ -13,7 +13,7 @@ ruleset: |
   5. The player with the most points after 2-3 cycles wins. Cycle count subject to change based on the number of participants.
   _Note: A "cycle" is one complete series of all players being the seeker. In other words, every player will be the seeker 2-3 times._
 timeEstimate: 60 minutes
-location: The Park
+location: Bolsa Chica Park
 capacity: 10
 teamBased: false
 requiresTournamentOrganization: false

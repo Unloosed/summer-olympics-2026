@@ -11,7 +11,7 @@ ruleset: |
   3. Most rounds won in a match takes the game.
   4. Power-ups are enabled for maximum chaos.
 timeEstimate: 20 minutes
-location: Console Station A
+location: Family Room
 capacity: 12
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 21
 ---
+
 It's cute, it's colorful, and it's absolutely lethal. Welcome to Boomerang Fu.

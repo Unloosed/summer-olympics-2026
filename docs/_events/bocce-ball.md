@@ -11,7 +11,7 @@ ruleset: |
   3. Points are awarded for each ball that is closer to the pallino than the opponent's closest ball.
   4. Games are typically played to 12 or 16 points.
 timeEstimate: 30 minutes
-location: Bocce Courts
+location: Backyard
 capacity: 12
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 32
 ---
+
 Precision and touch are key in this classic Italian pastime.

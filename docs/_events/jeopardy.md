@@ -10,7 +10,7 @@ ruleset: |
   2. Three rounds: Jeopardy, Double Jeopardy, and Final Jeopardy.
   3. Points are awarded for correct answers and deducted for incorrect ones.
 timeEstimate: 60 minutes
-location: Main Hall
+location: Family Room
 capacity: 9
 teamBased: false
 requiresTournamentOrganization: true
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 40
 ---
+
 What is... the most exciting trivia game ever?

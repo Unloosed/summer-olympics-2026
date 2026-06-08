@@ -11,7 +11,7 @@ ruleset: |
   3. Last one standing wins and moves on to the next round.
   4. If there is no winner after the time runs out, the player with the most remaining lives wins.
 timeEstimate: 30 minutes
-location: The Park
+location: Bolsa Chica Park
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true

@@ -11,7 +11,7 @@ ruleset: |
   3. If you're caught holding the timer when it beeps, you lose a point.
   4. The player with the fewest points at the end wins.
 timeEstimate: 15 minutes
-location: Family Room
+location: Living Room
 capacity: 10
 teamBased: false
 requiresTournamentOrganization: false
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 16
 ---
+
 Guess what? Chicken Butt! Get ready for some fast-paced, hilarious action.

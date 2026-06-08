@@ -10,7 +10,7 @@ ruleset: |
   2. No peeking!
   3. Winner-take-all. If there are more than 4 participants, there will be playoffs.
 timeEstimate: 30 minutes
-location: Living Room
+location: Family Room
 capacity: 12
 teamBased: false
 requiresTournamentOrganization: true

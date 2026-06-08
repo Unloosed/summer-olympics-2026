@@ -11,7 +11,7 @@ ruleset: |
   3. If the second player misses, they receive a letter (H, then O, etc.).
   4. Once a player reaches "HORSE", they are eliminated.
 timeEstimate: 30 minutes
-location: Basketball Court
+location: Bolsa Chica Park Basketball Court
 capacity: 10
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 11
 ---
+
 Creativity and precision are key. What kind of trick shots do you have up your sleeve?

@@ -12,7 +12,7 @@ ruleset: |
   4. At 20 all, the side which gains a two-point lead first, wins that game.
   5. At 29 all, the side scoring the 30th point, wins that game.
 timeEstimate: 45 minutes
-location: Indoor Court
+location: Bolsa Chica Park Badminton Court
 capacity: 16
 teamBased: false
 requiresTournamentOrganization: true
@@ -23,4 +23,5 @@ status: open
 registration_enabled: true
 displayOrder: 29
 ---
+
 Ready to serve? Show off your speed and precision on the court!

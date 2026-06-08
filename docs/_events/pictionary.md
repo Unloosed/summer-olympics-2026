@@ -10,7 +10,7 @@ ruleset: |
   2. No letters or numbers allowed in the drawing.
   3. Points awarded for correct guesses within the time limit.
 timeEstimate: 45 minutes
-location: The Library
+location: Living Room
 capacity: 20
 teamBased: true
 requiresTournamentOrganization: true
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 38
 ---
+
 Can you draw a "sunset" in 30 seconds? Find out in Pictionary!

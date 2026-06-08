@@ -11,15 +11,16 @@ ruleset: |
   3. All characters are legal.
   4. Best of 3 games; Finals are Best of 5.
 timeEstimate: 1.5 hours
-location: Console Station A
+location: Family Room
 capacity: 16
 teamBased: false
 requiresTournamentOrganization: true
 tournamentFormat: Double Elimination
-equipmentNeeded: Controller (optional, provided)
+equipmentNeeded: None
 skillLevel: Intermediate
 status: open
 registration_enabled: true
 displayOrder: 17
 ---
+
 Master the elements and prove your skill in this high-speed platform fighter.

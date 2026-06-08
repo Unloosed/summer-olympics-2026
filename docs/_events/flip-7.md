@@ -11,7 +11,7 @@ ruleset: |
   3. If you flip a card you already have, you bust and lose your points for that round.
   4. First player to reach the target score wins.
 timeEstimate: 20 minutes
-location: Dining Hall
+location: Dining Room
 capacity: 6
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 13
 ---
+
 How far will you push your luck in Flip 7?

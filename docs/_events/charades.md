@@ -10,7 +10,7 @@ ruleset: |
   2. Gestures only to convey the word or phrase.
   3. Points for correct guesses within the time limit.
 timeEstimate: 45 minutes
-location: Main Hall
+location: Living Room
 capacity: 24
 teamBased: true
 requiresTournamentOrganization: true
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 39
 ---
+
 Silence is golden, but acting is better!

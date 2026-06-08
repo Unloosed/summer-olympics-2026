@@ -11,7 +11,7 @@ ruleset: |
   3. Good sportsmanship is mandatory.
   4. If tied at the end, a penalty shootout will determine the winner.
 timeEstimate: 45 minutes
-location: Community Field
+location: Bolsa Chica Park
 capacity: 22
 teamBased: true
 requiresTournamentOrganization: false
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 10
 ---
+
 Kick off the games with some high-energy soccer action!

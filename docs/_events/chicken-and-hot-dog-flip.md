@@ -10,7 +10,7 @@ ruleset: |
   2. Success is measured by whoever completes the flip first.
   3. Total points at the end determine the winner.
 timeEstimate: 15 minutes
-location: Picnic Area
+location: Living Room
 capacity: 15
 teamBased: false
 requiresTournamentOrganization: false

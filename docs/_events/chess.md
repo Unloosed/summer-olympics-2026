@@ -11,7 +11,7 @@ ruleset: |
   2. Each player has 15 minutes on their clock (Rapid format).
   3. "Touch move" rule is in effect.
 timeEstimate: 2-3 hours
-location: The Library
+location: Dining Room
 capacity: 16
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 2
 ---
+
 Chess is the ultimate game of strategy. Can you outthink your opponents and claim the title of Grandmaster?

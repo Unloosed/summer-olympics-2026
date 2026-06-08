@@ -11,7 +11,7 @@ ruleset: |
   3. The last person to slap takes the pile.
   4. The goal is to get rid of all your cards.
 timeEstimate: 15 minutes
-location: Game Room
+location: Dining Room
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true

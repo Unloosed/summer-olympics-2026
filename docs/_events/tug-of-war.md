@@ -11,7 +11,7 @@ ruleset: |
   2. No wrapping the rope around your body.
   3. The first team to pull the center marker over the line wins.
 timeEstimate: 45 minutes
-location: Back Lawn
+location: Backyard
 capacity: 8 teams
 teamBased: true
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 4
 ---
+
 Heave-ho! Bring your friends and family together for this legendary display of power.

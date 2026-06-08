@@ -11,15 +11,16 @@ ruleset: |
   2. Random tracks will be selected for each round.
   3. No "glitch" shortcuts allowed.
 timeEstimate: 1.5 hours
-location: Living Room (TV 1)
+location: Family Room
 capacity: 12
 teamBased: false
 requiresTournamentOrganization: true
 tournamentFormat: Points-based over 4 races
-equipmentNeeded: Nintendo Switch Controller (if you have a preferred one)
+equipmentNeeded: None
 skillLevel: All levels welcome
 status: open
 registration_enabled: true
 displayOrder: 3
 ---
+
 Watch out for those Blue Shells! Mario Kart is always a crowd favorite and a test of both skill and luck.

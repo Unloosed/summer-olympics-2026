@@ -11,7 +11,7 @@ ruleset: |
   3. First player to reach the point limit wins.
   4. If a level is "Too Easy" (everyone finishes) or "Too Hard" (no one finishes), no points are awarded for finishing.
 timeEstimate: 30 minutes
-location: Console Station C
+location: Family Room
 capacity: 12
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 20
 ---
+
 Can you build a path that only you can navigate? Find out in Ultimate Chicken Horse!

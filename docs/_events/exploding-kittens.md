@@ -10,7 +10,7 @@ ruleset: |
   2. Last player standing wins.
   3. Defuse cards are your only hope!
 timeEstimate: 20 minutes
-location: The Library
+location: Dining Room
 capacity: 10
 teamBased: false
 requiresTournamentOrganization: true
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 36
 ---
+
 It's like Russian Roulette, but with kittens. And explosions.

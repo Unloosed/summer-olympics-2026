@@ -11,7 +11,7 @@ ruleset: |
   3. The player who was eliminated picks the next "it" from the remaining players.
   4. The last player remaining wins.
 timeEstimate: 20 minutes
-location: Open Field
+location: Bolsa Chica Park
 capacity: 20
 teamBased: false
 requiresTournamentOrganization: false
@@ -21,4 +21,5 @@ status: open
 registration_enabled: true
 displayOrder: 12
 ---
+
 Keep moving! In this game, being "it" is the last thing you want.

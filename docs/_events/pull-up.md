@@ -10,7 +10,7 @@ ruleset: |
   2. The active player has 60 seconds to perform as many pull-ups as they can.
   3. Whoever has the highest number of pull-ups at the end wins.
 timeEstimate: 20 minutes
-location: The Park
+location: Bolsa Chica Park
 capacity: 30
 teamBased: false
 requiresTournamentOrganization: false

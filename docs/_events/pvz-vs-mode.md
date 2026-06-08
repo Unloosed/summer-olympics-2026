@@ -11,7 +11,7 @@ ruleset: |
   3. The Zombie player wins if they manage to get a zombie into the house.
   4. Players swap roles for a second round; ties are broken by fastest win or most progress.
 timeEstimate: 30 minutes
-location: PC Lab
+location: Family Room
 capacity: 8
 teamBased: false
 requiresTournamentOrganization: true
@@ -22,4 +22,5 @@ status: open
 registration_enabled: true
 displayOrder: 22
 ---
+
 Defend your brain or lead the undead to victory in this classic strategy duel.

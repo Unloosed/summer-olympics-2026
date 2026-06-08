@@ -10,7 +10,7 @@ ruleset: |
   2. If the other foot touches the ground, the participant must return to the start or wait for a 3-second penalty.
   3. First to cross the finish line wins.
 timeEstimate: 10 minutes
-location: Track
+location: Marine View Middle School Track
 capacity: 20
 teamBased: false
 requiresTournamentOrganization: false
